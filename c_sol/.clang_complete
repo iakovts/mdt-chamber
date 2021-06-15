@@ -1,0 +1,29 @@
+-pthread
+-std=c++11
+-m64
+-I /home/iakovos/root/include 
+-L /home/iakovos/root/lib 
+-lCore
+-lImt
+-lRIO
+-lNet
+-lHist
+-lGraf
+-lGraf3d
+-lGpad
+-lROOTVecOps
+-lTree
+-lTreePlayer
+-lRint 
+-lPostscript
+-lMatrix 
+-lPhysics 
+-lMathCore 
+-lThread 
+-lMultiProc 
+-lROOTDataFrame 
+-pthread 
+-lm 
+-ldl 
+-rdynamic
+
