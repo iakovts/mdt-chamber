@@ -1,7 +1,6 @@
 #include "../lib/MDTChamber.hpp"
 
-
-int main(){
+int main() {
   MDTChamber mdt;
   // mdt.draw_row(0.15, 0);
   // mdt.draw_all();
@@ -10,8 +9,9 @@ int main(){
   // for (int i = 0; i < 10; i ++){
   //   std::cout << mdt.get_random_angle() << "\n";
   // }
-  for (int i = 0; i < 10; i++){
-    mdt.get_random_traj();}
+  // for (int i = 0; i < 10; i++) {
+    mdt.get_random_traj();
+  // }
   // int n = 200;
   // int x[200];
   // int y[200];
@@ -28,7 +28,5 @@ int main(){
   // TEllipse *el1 = new TEllipse(0.25, 0.25, 0.1, 0.1);
   // el1->Draw();
   // c1 = new TCanvas();
-  
-
 }
-//rand() % (max_number + 1 - minimum_number) + minimum_number
+// rand() % (max_number + 1 - minimum_number) + minimum_number
