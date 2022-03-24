@@ -5,7 +5,7 @@
 #include <TGraph.h>
 #include <TCanvas.h>
 
-/* Data presented here were collected using an online tool for 
+/* Data presented here was collected using an online tool for 
 extracting data from graphs called WebPlotDigitizer 
 (https://automeris.io/WebPlotDigitizer/) */
 

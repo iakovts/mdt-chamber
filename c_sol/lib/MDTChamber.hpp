@@ -31,7 +31,7 @@ class MDTChamber {
   Double_t dist_tube[30][8]{0};
   TRandom3 *rng = new TRandom3(10);
 
-  // Holds the distances measured for all muons
+  // Stores the distances measured for all muons
   std::vector<double> distances;
 
   TCanvas *c1 =
